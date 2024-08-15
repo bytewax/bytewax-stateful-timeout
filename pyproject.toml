@@ -1,5 +1,5 @@
 [project]
-name = "bytewax_stateful_timeout"
+name = "bytewax-stateful-timeout"
 version = "0.1"
 description = "Stateful operators that have timeout parameters."
 readme = "README.md"
@@ -27,9 +27,9 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/bytewax/bytewax_stateful_timeout"
-"Bug Reports" = "https://github.com/bytewax/bytewax_stateful_timeout/issues/new"
-"Source" = "https://github.com/bytewax/bytewax_stateful_timeout/"
+"Homepage" = "https://github.com/bytewax/bytewax-stateful-timeout"
+"Bug Reports" = "https://github.com/bytewax/bytewax-stateful-timeout/issues/new"
+"Source" = "https://github.com/bytewax/bytewax-stateful-timeout/"
 
 [build-system]
 requires = ["setuptools>=43.0.0", "wheel"]

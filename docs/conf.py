@@ -185,15 +185,15 @@ myst_substitutions = {
 }
 myst_url_schemes = {
     "gh-issue": {
-        "url": "https://github.com/bytewax/bytewax_stateful_timeout/issues/"
+        "url": "https://github.com/bytewax/bytewax-stateful-timeout/issues/"
         "{{ path }}#{{ fragment }}",
         "title": "Issue #{{path}}",
         "classes": ["github"],
     },
     "gh-path": {
-        "url": f"https://github.com/bytewax/bytewax_stateful_timeout/blob/{git_id}"
+        "url": f"https://github.com/bytewax/bytewax-stateful-timeout/blob/{git_id}"
         "#{path}}#",
-        "title": "bytewax/bytewax_stateful_timeout{{ path }}",
+        "title": "bytewax/bytewax-stateful-timeout{{ path }}",
         "classes": ["github"],
     },
     "http": None,

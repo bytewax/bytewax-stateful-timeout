@@ -1,6 +1,6 @@
-[![Actions Status](https://github.com/bytewax/bytewax_stateful_timeout/workflows/CI/badge.svg)](https://github.com/bytewax/bytewax_stateful_timeout/actions)
-[![PyPI](https://img.shields.io/pypi/v/bytewax_stateful_timeout.svg?style=flat-square)](https://pypi.org/project/bytewax_stateful_timeout/)
-[![Bytewax User Guide](https://img.shields.io/badge/user-guide-brightgreen?style=flat-square)](https://docs.bytewax.io/projects/stateful_timeout/en/stable/index.html)
+[![Actions Status](https://github.com/bytewax/bytewax-stateful-timeout/workflows/CI/badge.svg)](https://github.com/bytewax/bytewax-stateful-timeout/actions)
+[![PyPI](https://img.shields.io/pypi/v/bytewax-stateful-timeout.svg?style=flat-square)](https://pypi.org/project/bytewax-stateful-timeout/)
+[![Bytewax User Guide](https://img.shields.io/badge/user-guide-brightgreen?style=flat-square)](https://docs.bytewax.io/projects/bytewax-stateful-timeout/en/stable/index.html)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/6073079/195393689-7334098b-a8cd-4aaa-8791-e4556c25713e.png" width="350">
