@@ -1,6 +1,8 @@
 """Stateful operators that have timeout parameters."""
 
 import copy
+import os
+import sys
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta
 from typing import Callable, Generic, Iterable, Optional, Tuple
@@ -18,6 +20,18 @@ from bytewax.operators import (
     f_repr,
 )
 from typing_extensions import override
+
+if "BYTEWAX_LICENSE" not in os.environ:
+    msg = (
+        "`bytewax-interval` is commercially licensed "
+        "with publicly available source code.\n"
+        "You are welcome to prototype using this module for free, "
+        "but any use on business data requires a paid license.\n"
+        "See https://modules.bytewax.io/ for a license. "
+        "Set the env var `BYTEWAX_LICENSE=1` to suppress this message."
+    )
+    print(msg, file=sys.stderr)
+
 
 ZERO_TD: timedelta = timedelta(seconds=0)
 """A zero length of time."""
